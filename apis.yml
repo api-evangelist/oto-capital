@@ -1,7 +1,11 @@
 aid: oto-capital
 name: Oto Capital
-description: Oto Capital is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: OTO (Oto Capital) is India's leading platform to discover, research, and buy two-wheelers
+  online with embedded financing. It offers digital bike loans with eligibility checks in five minutes
+  and loan approvals within thirty minutes, an EMI calculator, home delivery, and test rides across 22+
+  Indian cities, working with 10+ lending partners including Northern Arc, Western Capital, Ujjivan Small
+  Finance Bank, and Suryoday Small Finance Bank. Backed by 500 Global. No public developer API, portal,
+  or documentation surface is currently published by the company.
 url: https://raw.githubusercontent.com/api-evangelist/oto-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +13,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.otocapital.in/icons/logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Two-Wheeler
+- Financing
+- Fintech
+- Lending
+- Consumer Finance
+- Mobility
+- E-Commerce
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://otocapital.in
+  url: https://www.otocapital.in
+- type: PrivacyPolicy
+  url: https://www.otocapital.in/privacy-policy
+- type: TermsOfService
+  url: https://www.otocapital.in/terms-of-use
+- type: DomainSecurity
+  url: security/oto-capital-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
